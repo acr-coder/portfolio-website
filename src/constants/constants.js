@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['React', 'NextJs', 'MongoDB'],
     source: 'https://github.com/acr-coder/nextjs-add-note/tree/master',
-    visit: 'https://nextjs-add-task.vercel.app/',
+    visit: 'https://github.com/acr-coder/nextjs-add-note/tree/master',
     id: 1,
   },
   {
