@@ -1,22 +1,32 @@
 export const projects = [
   {
+    title: 'Task Manager',
+    description: "Using Svelte",
+      image: '/images/task-app.png',
+      tags: ['Svelte'],
+    source: 'https://github.com/acr-coder/svelte-task-manager',
+    visit: 'https://svelte-task-manager.vercel.app/',
+    id: 1,
+  },
+  {
+    title: 'Survey App',
+    description: "Using Svelte",
+      image: '/images/survey-app.png',
+      tags: ['Svelte'],
+    source: 'https://github.com/acr-coder/svelte-surveyapp-with-stores',
+    visit: 'https://svelte-surveyapp-with-stores.vercel.app/',
+    id: 2,
+  },
+  {
     title: 'ACR-DEV BLOG',
     description: "Using React, Next.Js, GraphQL, GraphCMS & Tailwind CSS",
       image: '/images/1.png',
       tags: ['React', 'Next.Js', 'GraphQL', 'GraphCMS','Tailwind CSS'],
     source: 'https://github.com/acr-coder/acr-dev-blog/tree/main',
     visit: 'https://acr-dev-blog.vercel.app/',
-    id: 0,
+    id: 3,
   },
-  {
-    title: 'Task App',
-    description:"Using NextJs & MongoDB",
-    image: '/images/2.png',
-    tags: ['React', 'NextJs', 'MongoDB'],
-    source: 'https://github.com/acr-coder/nextjs-add-note/tree/master',
-    visit: 'https://github.com/acr-coder/nextjs-add-note/tree/master',
-    id: 1,
-  },
+  
   {
     title: 'My Cards',
     description: "Using React,Bootstrap & MongoDB",
@@ -24,17 +34,9 @@ export const projects = [
       tags: ['React', 'Bootstrap', 'MongoDB'],
     source: 'https://github.com/acr-coder/my-cards/tree/master',
     visit: 'https://acr-coder.github.io/my-cards/',
-    id: 2,
+    id: 4,
   },
-  {
-    title: 'Portfolio Material UI',
-    description: "Using NextJs & Material UI",
-    image: '/images/4.png',
-    tags: ['React', 'Material UI'],
-    source: 'https://github.com/acr-coder/isaacarerportfolio',
-    visit: 'https://acr-coder.github.io/isaacarerportfolio/',
-    id: 3,
-  },
+  
 ];
 
 export const courses = [
@@ -46,6 +48,15 @@ export const courses = [
     source: 'https://github.com/acr-coder/acr-dev-blog/tree/main',
     visit: 'https://www.udemy.com/course/reactjs-temelleri-egitimi/?referralCode=655141A3FF8AA81737EC',
     id: 0,
+  },
+  {
+    title: 'Svelte',
+    description: " In this training set, Svelte.js training is given accompanied by Modern Javascript topics.",
+      image: '/images/svelteimage.jpg',
+      tags: ['Svelte'],
+    source: 'https://github.com/acr-coder/acr-dev-blog/tree/main',
+    visit: 'https://www.udemy.com/course/svelte-temelleri-egitimi/?referralCode=9C8000027525BAB9A99F',
+    id: 4,
   },
   {
     title: 'Fundementals of Software',
