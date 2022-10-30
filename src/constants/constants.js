@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'ACR BUDGET APP',
+    description: "Using Svelte",
+      image: '/images/budget.png',
+      tags: ['Svelte','Javascript','Localstorage'],
+    source: 'https://github.com/acr-coder/acrstore-demo',
+    visit: 'https://budgetapp-taupe.vercel.app/',
+    id: 1,
+  },
+  {
     title: 'ACR STORE',
     description: "Using NextJs, Sanity io,",
       image: '/images/acr-store.png',
       tags: ['Nextjs','Sanity io'],
     source: 'https://github.com/acr-coder/acrstore-demo',
     visit: 'https://acrstore-demo.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Task Manager',
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['Svelte'],
     source: 'https://github.com/acr-coder/svelte-task-manager',
     visit: 'https://svelte-task-manager.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Survey App',
@@ -24,7 +33,7 @@ export const projects = [
       tags: ['Svelte'],
     source: 'https://github.com/acr-coder/svelte-surveyapp-with-stores',
     visit: 'https://svelte-surveyapp-with-stores.vercel.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'ACR-DEV BLOG',
@@ -33,7 +42,7 @@ export const projects = [
       tags: ['React', 'Next.Js', 'GraphQL', 'GraphCMS','Tailwind CSS'],
     source: 'https://github.com/acr-coder/acr-dev-blog/tree/main',
     visit: 'https://acr-dev-blog.vercel.app/',
-    id: 4,
+    id: 5,
   },
   
   {
@@ -43,7 +52,7 @@ export const projects = [
       tags: ['React', 'Bootstrap', 'MongoDB'],
     source: 'https://github.com/acr-coder/my-cards/tree/master',
     visit: 'https://acr-coder.github.io/my-cards/',
-    id: 5,
+    id: 6,
   },
   
 ];
