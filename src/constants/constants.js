@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'ACR BUDGET TRACKER 2',
     description: "Using Svelte",
-      image: '/images/budget-tracker-2.png',
+      image: '/images/budget-tracker-2.PNG',
       tags: ['Svelte','Sveltstrap','Javascript','Localstorage'],
     source: 'https://github.com/acr-coder/acrstore-demo',
     visit: 'https://acr-budget-tracker.vercel.app/',
